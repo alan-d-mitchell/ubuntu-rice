@@ -1,0 +1,7 @@
+2025-06-07 21:55:01.043 [info] Started local extension host with pid 3192.
+2025-06-07 21:55:01.213 [info] ComputeTargetPlatform: linux-x64
+2025-06-07 21:55:06.252 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-07 21:55:07.069 [info] [perf] Render performance baseline is 306ms
+2025-06-07 23:27:03.472 [warning] Semantic token with invalid length detected at lineNumber 14, column 1
+2025-06-07 23:29:19.771 [info] Started local extension host with pid 14613.
+2025-06-07 23:29:24.093 [error] No registered selector for ID: ms-vscode.npm-command

@@ -1,0 +1,4 @@
+struct Node {
+    value: T;
+    next: *T+1;
+}

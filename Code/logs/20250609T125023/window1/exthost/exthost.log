@@ -1,0 +1,18 @@
+2025-06-09 12:50:25.787 [info] Extension host with pid 11864 started
+2025-06-09 12:50:25.787 [info] Skipping acquiring lock for /home/alan-mitchell/.config/Code/User/workspaceStorage/f7434ee06303382261040ffe36b4bcfd.
+2025-06-09 12:50:26.410 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-09 12:50:26.461 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-09 12:50:26.941 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-09 12:50:27.183 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-09 12:50:27.264 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-09 12:50:27.410 [info] Eager extensions activated
+2025-06-09 12:50:27.445 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 12:50:27.449 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 12:50:27.487 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 12:50:27.496 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 12:50:27.714 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-09 12:50:27.726 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-09 12:50:27.803 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-09 12:58:21.984 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-06-09 12:59:57.228 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-09 12:59:57.288 [info] Extension host with pid 11864 exiting with code 0

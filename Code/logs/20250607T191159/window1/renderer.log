@@ -1,0 +1,5 @@
+2025-06-07 19:12:01.053 [info] Started local extension host with pid 10340.
+2025-06-07 19:12:01.075 [info] ComputeTargetPlatform: linux-x64
+2025-06-07 19:12:01.137 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-06-07 19:12:02.323 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-07 19:12:03.703 [info] [perf] Render performance baseline is 32ms

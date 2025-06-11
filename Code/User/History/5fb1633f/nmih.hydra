@@ -1,0 +1,15 @@
+
+struct Node: T {
+    let value: T;
+    let next: &Node?;
+}
+
+fn main() -> void {
+    let node: Node::i32 {
+        value = 5;
+        next = null;
+    };
+
+    // node ops
+}
+

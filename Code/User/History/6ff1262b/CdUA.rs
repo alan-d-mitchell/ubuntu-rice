@@ -1,0 +1,71 @@
+mod hydrac;
+
+use hydrac::parse::lexer::{Lexer, Token, TokenType};
+use std::env;
+use std::fs;
+use std::process;
+
+fn main() {
+    let args : Vec<String> = env::args().collect();
+
+    if args.len() < 2 {
+        eprintln!("Usage: {} <input.hydra> [-o output(.hydra)]", args[0]);
+
+        process::exit(1);
+    }
+
+    let filename = &args[1];
+    let mut output_file = None;
+
+    let mut i = 2;
+    while i < args.len() {
+        if args[i] == "-o" {
+            if i + 1 >= args.len() {
+                eprintln!("Error: -o flag requires an output filename");
+                
+                process::exit(1);
+            }
+        }
+    }
+    let contents = match fs::read_to_string(filename) {
+        Ok(contents) => contents,
+        Err(err) => {
+            eprintln!("Error reading file '{}': {}", filename, err);
+            process::exit(1);
+        }
+    };
+
+    println!("=== HYDRA COMPILER ===");
+    println!("Compiling file: {}", filename);
+
+    println!("=== TOKENIZING ===");
+
+    let mut lexer = Lexer::new(&contents);
+    let tokens = match lexer.tokenize() {
+        Ok(tokens) => tokens,
+        Err(err) => {
+            eprintln!("Lexer error: {}", err);
+            
+            process::exit(1);
+        }
+    };
+
+    println!("Tokenization successful");
+    println!("Tokens found: {}", tokens.len());
+
+    if env::var("token_verbose").is_ok() {
+        println!("\n All tokens:");
+
+        for (i, token) in tokens.iter().enumerate() {
+            println!("  {:3}: {:?}", i, token);
+        }
+    }
+
+    let input_stem = Path::new(filename)
+        .file_stem()
+        .unwrap()
+        .to_str()
+        .unwrap();
+    
+    let output_file = 
+}

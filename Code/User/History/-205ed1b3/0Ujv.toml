@@ -1,0 +1,16 @@
+[package]
+name = "hydra-lang"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bin]]
+name = "hydrac"
+path = "src/main.rs"
+
+[lib]
+path = "src/lib.rs"

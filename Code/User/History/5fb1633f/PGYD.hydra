@@ -1,0 +1,14 @@
+
+struct Node: T {
+    let value: T;
+    let next: &Node?;
+}
+
+fn main() -> void {
+    let node: &Node = Node::type_of(Node) {
+        // stuff
+    }
+
+    // node ops
+}
+

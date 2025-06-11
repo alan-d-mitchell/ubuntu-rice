@@ -1,0 +1,98 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ad851e4fb5474035d2936292b5c66c8153fdcf45d1ac1029c90b53b73e603526",
+    "telemetry.devDeviceId": "6b3ed541-25e2-4ece-932e-3eba308cdd8e",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/alan-mitchell/Chess"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/alan-mitchell/mini-os": "__default__profile__",
+            "file:///home/alan-mitchell/Hydra": "__default__profile__",
+            "file:///home/alan-mitchell/hydra-type-inference": "__default__profile__",
+            "file:///home/alan-mitchell/Chess": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#24273a",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cad3f5",
+            "background": "#24273a",
+            "editorBackground": "#24273a",
+            "titleBarBackground": "#181926",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#181926",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#1e2030",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#181926",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#181926",
+            "windowBorder": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 50,
+            "activityBarWidth": 48,
+            "sideBarWidth": 261,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/alan-mitchell/Chess",
+            "backupPath": "/home/alan-mitchell/.config/Code/Backups/0b3a183f6d8b0855d00e92c53902c415",
+            "uiState": {
+                "mode": 1,
+                "x": 14,
+                "y": 54,
+                "width": 1338,
+                "height": 700,
+                "zoomLevel": -2
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 261,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "a60abb9d8478856a651b42b6afa89fb5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f409e6e47402744b45c7f4898a36d66e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "416994cd74c537a4188d54fdf6e27a67": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f7434ee06303382261040ffe36b4bcfd": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "28ec94a069dac70ec0c1cc153e999e7c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
