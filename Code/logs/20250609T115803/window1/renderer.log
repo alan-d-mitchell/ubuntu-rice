@@ -1,9 +1,0 @@
-2025-06-09 11:58:05.770 [info] Started local extension host with pid 3236.
-2025-06-09 11:58:05.840 [info] ComputeTargetPlatform: linux-x64
-2025-06-09 11:58:09.209 [info] Auto updating outdated extensions. rust-lang.rust-analyzer
-2025-06-09 11:58:09.406 [info] Settings Sync: Account status changed from uninitialized to unavailable
-2025-06-09 11:58:10.515 [info] [perf] Render performance baseline is 69ms
-2025-06-09 12:00:51.849 [info] Started local extension host with pid 3481.
-2025-06-09 12:00:53.274 [info] ComputeTargetPlatform: linux-x64
-2025-06-09 12:00:55.740 [info] Settings Sync: Account status changed from uninitialized to unavailable
-2025-06-09 12:00:56.907 [info] [perf] Render performance baseline is 49ms

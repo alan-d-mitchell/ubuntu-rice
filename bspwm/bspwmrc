@@ -1,61 +1,66 @@
-#!/bin/bash
+#! /bin/sh
 
-# Terminate already running instances
-pkill -x sxhkd
-pkill -x polybar
-pkill -x picom
-pkill -x dunst
+#
+#                 ░█▀▄░█▀▀░█▀█░█░█░█▄█
+#                 ░█▀▄░▀▀█░█▀▀░█▄█░█░█
+#                 ░▀▀░░▀▀▀░▀░░░▀░▀░▀░▀
+#
 
-# Wait for processes to terminate
-sleep 1
+$HOME/.scripts/custom-autostart
 
-# Start sxhkd (hotkey daemon)
+# Network manager
+#nm-applet &
+
+xsetroot -cursor_name left_ptr
 sxhkd &
-
-# Start compositor for transparency/effects
 picom &
-
-# Start notification daemon
+nitrogen --restore
+wmname LG3D &
+lxpolkit &
+xset -dpms s off & # disable screen blanking
 dunst &
+#dropbox &
+#nautilus --gapplication-service &
 
-# Start status bar
-polybar main &
+# Swallow
 
-# Set wallpaper (you'll need to add your wallpaper path)
-feh --bg-scale ~/Pictures/wallpapers/wp4786592-retrowawe-wallpapers.jpg # feh --bg-scale ~/Pictures/wallpaper.jpg &
+#nohup pidof $HOME/.scripts/bspswallow || $HOME/.scripts/bspswallow &
+pgrep bspswallow || nohup ~/.scripts/bspswallow &
 
-# Configure monitors
-bspc monitor -d I II III IV V VI VII VIII IX X
+# Workspaces
 
-# Window management
-bspc config border_width         2
-bspc config window_gap          12
-bspc config split_ratio          0.52
+bspc config window_gap          20
+bspc config split_ratio          0.6
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
+bspc config single_monocle       false
+$HOME/.config/bspwm/autostart
 
-# Colors (red-purple-blue theme inspired by the dotfiles)
-bspc config focused_border_color        "#c678dd"
-bspc config normal_border_color         "#44475a"
-bspc config active_border_color         "#bd93f9"
-bspc config presel_feedback_color       "#6272a4"
-
-# Mouse
-bspc config pointer_modifier mod4
-bspc config pointer_action1 move
-bspc config pointer_action2 resize_side
-bspc config pointer_action3 resize_corner
-bspc config click_to_focus any
-
-# Rules
-bspc rule -a Gimp desktop='^8' state=floating follow=on
+# Default state/workspace for applications
 bspc rule -a Chromium desktop='^2'
-bspc rule -a Firefox desktop='^2'
-bspc rule -a discord desktop='^3'
-bspc rule -a Spotify desktop='^4'
-xsetroot -cursor_name left_ptr &
-gsettings set org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Classic' &
-bspc rule -a Code desktop=^2
-bspc rule -a code desktop=^2
-bspc rule -a Firefox desktop=^3
-bspc rule -a firefox desktop=^3
+bspc rule -a discord desktop='^7'
+bspc rule -a mplayer2 state=floating
+bspc rule -a nomacs state=floating
+bspc rule -a nomacs state=floating
+bspc rule -a "Image Lounge" state=floating
+bspc rule -a Zathura state=tiled
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+bspc config pointer_modifier mod4
+
+#sleep 0.69
+
+# Autostart applications:
+
+# Start Polybar
+$HOME/.config/polybar/scripts/launch-polybar.sh &
+
+# Start floating kitty terminal
+bspc rule -a \* -o state=floating && sleep 0.015 ; kitty -e $SHELL -c "$HOME/.config/neofetch/launch-neofetch.sh && $SHELL" &
+
+sleep 1.55 
+
+# Start firefox
+/bin/bash -c "bspc desktop -f '^2' --follow ; bspc rule -a \* -o node=@$(bspc query -D -d):.focused split_dir=south follow=off ; firefox file:///home/$USER/.config/startpage/index.html &" &
+bspc desktop -f '^2' --follow &
+

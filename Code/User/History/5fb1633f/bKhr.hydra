@@ -1,4 +1,0 @@
-struct Node {
-    value: T;
-    next: 
-}
