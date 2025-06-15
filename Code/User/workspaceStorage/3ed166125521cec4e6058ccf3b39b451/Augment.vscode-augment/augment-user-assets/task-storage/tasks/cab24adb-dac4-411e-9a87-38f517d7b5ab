@@ -1,0 +1,9 @@
+{
+  "uuid": "cab24adb-dac4-411e-9a87-38f517d7b5ab",
+  "name": "Conversation: New Chat",
+  "description": "Root task for conversation b26d6761-943d-468c-8d4c-a6fabc4d1cfa",
+  "state": "NOT_STARTED",
+  "subTasks": [],
+  "lastUpdated": 1749874920776,
+  "lastUpdatedBy": "USER"
+}

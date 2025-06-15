@@ -1,0 +1,43 @@
+2025-06-13 20:51:51.553 [info] Extension host with pid 5385 started
+2025-06-13 20:51:51.553 [info] Skipping acquiring lock for /home/alan-mitchell/.config/Code/User/workspaceStorage/3ed166125521cec4e6058ccf3b39b451.
+2025-06-13 20:51:51.763 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-13 20:51:51.805 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-13 20:51:51.918 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-13 20:51:51.932 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-13 20:51:52.015 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-13 20:51:52.151 [info] Eager extensions activated
+2025-06-13 20:51:52.197 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 20:51:52.202 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 20:51:52.228 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 20:51:52.236 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 20:51:52.447 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 20:51:52.459 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 20:51:52.538 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 23:20:40.831 [info] ExtensionService#_doActivateExtension Augment.vscode-augment, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 23:22:02.469 [error] Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.findMissing (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:32341)
+	at async e.describe (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:2288:61906)
+	at async e._qualifySourceFolder (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:2288:85289)
+2025-06-13 23:22:36.349 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-13 23:22:36.433 [info] Extension host with pid 5385 exiting with code 0
+2025-06-13 23:22:37.869 [info] Extension host with pid 43333 started
+2025-06-13 23:22:37.869 [info] Skipping acquiring lock for /home/alan-mitchell/.config/Code/User/workspaceStorage/3ed166125521cec4e6058ccf3b39b451.
+2025-06-13 23:22:37.900 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-13 23:22:37.948 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-13 23:22:37.996 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 23:22:38.018 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 23:22:38.202 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 23:22:38.306 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+2025-06-13 23:22:38.434 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+2025-06-13 23:22:38.922 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-13 23:22:39.037 [info] Eager extensions activated
+2025-06-13 23:22:39.145 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 23:22:39.151 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 23:22:39.186 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 23:22:39.198 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 23:22:53.838 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-13 23:22:53.900 [info] Extension host with pid 43333 exiting with code 0

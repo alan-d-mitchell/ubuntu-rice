@@ -1,0 +1,79 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ad851e4fb5474035d2936292b5c66c8153fdcf45d1ac1029c90b53b73e603526",
+    "telemetry.devDeviceId": "6b3ed541-25e2-4ece-932e-3eba308cdd8e",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/alan-mitchell/chess-engine"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/alan-mitchell/chess-engine": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#303446",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#c6d0f5",
+            "background": "#303446",
+            "editorBackground": "#303446",
+            "titleBarBackground": "#232634",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#232634",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#292c3c",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#232634",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#232634",
+            "windowBorder": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 60,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/alan-mitchell/chess-engine",
+            "backupPath": "/home/alan-mitchell/.config/Code/Backups/933f023a7b7b89100398cd2066a1fe1e",
+            "uiState": {
+                "mode": 1,
+                "x": 22,
+                "y": 66,
+                "width": 1322,
+                "height": 680,
+                "zoomLevel": -3
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "3ed166125521cec4e6058ccf3b39b451": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

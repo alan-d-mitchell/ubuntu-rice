@@ -1,0 +1,79 @@
+2025-06-13 20:13:42.711 [info] [main] Log level: Info
+2025-06-13 20:13:42.711 [info] [main] Validating found git in: "git"
+2025-06-13 20:13:42.711 [info] [main] Using git "2.43.0" from "git"
+2025-06-13 20:13:42.711 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-13 20:13:42.711 [info] > git rev-parse --show-toplevel [26ms]
+2025-06-13 20:13:42.711 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2025-06-13 20:13:42.711 [info] [Model][openRepository] Opened repository (path): /home/alan-mitchell/chess-engine
+2025-06-13 20:13:42.711 [info] [Model][openRepository] Opened repository (real path): /home/alan-mitchell/chess-engine
+2025-06-13 20:13:42.751 [info] > git rev-parse --show-toplevel [6ms]
+2025-06-13 20:13:42.752 [info] > git config --get commit.template [22ms]
+2025-06-13 20:13:42.786 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-13 20:13:42.788 [info] > git rev-parse --show-toplevel [19ms]
+2025-06-13 20:13:42.795 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-13 20:13:42.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2025-06-13 20:13:42.797 [warning] [Git][getBranch] No such branch: master
+2025-06-13 20:13:42.839 [info] > git status -z -uall [20ms]
+2025-06-13 20:13:42.841 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-13 20:13:42.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2025-06-13 20:13:42.896 [warning] [Git][getBranch] No such branch: master
+2025-06-13 20:13:42.898 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-13 20:13:42.900 [info] > git config --get commit.template [5ms]
+2025-06-13 20:13:42.918 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-13 20:13:42.924 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-06-13 20:13:42.924 [warning] [Git][getBranch] No such branch: master
+2025-06-13 20:13:42.987 [info] > git status -z -uall [46ms]
+2025-06-13 20:13:42.987 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [29ms]
+2025-06-13 20:13:46.543 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-13 20:13:46.545 [info] > git config --get commit.template [24ms]
+2025-06-13 20:13:46.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-13 20:13:46.546 [warning] [Git][getBranch] No such branch: master
+2025-06-13 20:13:46.591 [info] > git status -z -uall [24ms]
+2025-06-13 20:13:46.594 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-13 20:13:53.850 [info] > git check-ignore -v -z --stdin [3ms]
+2025-06-13 20:13:55.341 [info] > git check-ignore -v -z --stdin [4ms]
+2025-06-13 20:14:41.818 [info] [main] Log level: Info
+2025-06-13 20:14:41.818 [info] [main] Validating found git in: "git"
+2025-06-13 20:14:41.818 [info] [main] Using git "2.43.0" from "git"
+2025-06-13 20:14:41.818 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-13 20:14:41.818 [info] > git rev-parse --show-toplevel [44ms]
+2025-06-13 20:14:41.871 [info] > git rev-parse --git-dir --git-common-dir [36ms]
+2025-06-13 20:14:41.899 [info] [Model][openRepository] Opened repository (path): /home/alan-mitchell/chess-engine
+2025-06-13 20:14:41.899 [info] [Model][openRepository] Opened repository (real path): /home/alan-mitchell/chess-engine
+2025-06-13 20:14:42.051 [info] > git rev-parse --show-toplevel [107ms]
+2025-06-13 20:14:42.052 [info] > git config --get commit.template [130ms]
+2025-06-13 20:14:42.109 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-13 20:14:42.111 [info] > git rev-parse --show-toplevel [34ms]
+2025-06-13 20:14:42.120 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-13 20:14:42.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-06-13 20:14:42.123 [warning] [Git][getBranch] No such branch: master
+2025-06-13 20:14:42.167 [info] > git status -z -uall [24ms]
+2025-06-13 20:14:42.170 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-13 20:14:42.238 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [35ms]
+2025-06-13 20:14:42.238 [warning] [Git][getBranch] No such branch: master
+2025-06-13 20:14:42.239 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-13 20:14:42.249 [info] > git config --get commit.template [15ms]
+2025-06-13 20:14:42.255 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-13 20:14:42.296 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2025-06-13 20:14:42.296 [warning] [Git][getBranch] No such branch: master
+2025-06-13 20:14:42.332 [info] > git status -z -uall [17ms]
+2025-06-13 20:14:42.334 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-13 20:14:43.281 [info] > git check-ignore -v -z --stdin [3ms]
+2025-06-13 20:16:42.620 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-13 20:16:42.622 [info] > git config --get commit.template [22ms]
+2025-06-13 20:16:42.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-13 20:16:42.623 [warning] [Git][getBranch] No such branch: master
+2025-06-13 20:16:42.671 [info] > git status -z -uall [25ms]
+2025-06-13 20:16:42.673 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-13 20:17:19.355 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-13 20:17:19.357 [info] > git config --get commit.template [23ms]
+2025-06-13 20:17:19.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-13 20:17:19.359 [warning] [Git][getBranch] No such branch: master
+2025-06-13 20:17:19.400 [info] > git status -z -uall [22ms]
+2025-06-13 20:17:19.403 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-13 20:17:25.236 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-13 20:17:25.257 [info] > git config --get commit.template [22ms]
+2025-06-13 20:17:25.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-13 20:17:25.260 [warning] [Git][getBranch] No such branch: master
+2025-06-13 20:17:25.301 [info] > git status -z -uall [23ms]
+2025-06-13 20:17:25.303 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]

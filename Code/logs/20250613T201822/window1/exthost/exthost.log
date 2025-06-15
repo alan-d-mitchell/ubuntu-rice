@@ -1,0 +1,17 @@
+2025-06-13 20:18:25.779 [info] Extension host with pid 17609 started
+2025-06-13 20:18:25.780 [info] Skipping acquiring lock for /home/alan-mitchell/.config/Code/User/workspaceStorage/3ed166125521cec4e6058ccf3b39b451.
+2025-06-13 20:18:26.279 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-13 20:18:26.353 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-13 20:18:26.862 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-13 20:18:26.968 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-13 20:18:27.093 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-13 20:18:27.326 [info] Eager extensions activated
+2025-06-13 20:18:27.396 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 20:18:27.402 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 20:18:27.480 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 20:18:27.494 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 20:18:28.043 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 20:18:28.061 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 20:18:28.176 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 20:22:58.816 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-13 20:22:58.869 [info] Extension host with pid 17609 exiting with code 0

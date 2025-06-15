@@ -1,0 +1,8 @@
+2025-06-13 12:16:14.822 [info] ComputeTargetPlatform: linux-x64
+2025-06-13 12:16:15.586 [info] ComputeTargetPlatform: linux-x64
+2025-06-13 12:16:39.989 [info] Getting Manifest... fr4nk1in.nordfox-vsc
+2025-06-13 12:16:40.095 [info] Installing extension: fr4nk1in.nordfox-vsc {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/alan-mitchell/.vscode/extensions/extensions.json","path":"/home/alan-mitchell/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.2","date":"2025-05-14T21:47:40.416Z"}}
+2025-06-13 12:16:42.173 [info] Extension signature verification result for fr4nk1in.nordfox-vsc: Success. Internal Code: 0. Executed: true. Duration: 1596ms.
+2025-06-13 12:16:42.224 [info] Extracted extension to file:///home/alan-mitchell/.vscode/extensions/fr4nk1in.nordfox-vsc-0.1.2: fr4nk1in.nordfox-vsc
+2025-06-13 12:16:42.233 [info] Renamed to /home/alan-mitchell/.vscode/extensions/fr4nk1in.nordfox-vsc-0.1.2
+2025-06-13 12:16:42.262 [info] Extension installed successfully: fr4nk1in.nordfox-vsc vscode-userdata:/home/alan-mitchell/.vscode/extensions/extensions.json

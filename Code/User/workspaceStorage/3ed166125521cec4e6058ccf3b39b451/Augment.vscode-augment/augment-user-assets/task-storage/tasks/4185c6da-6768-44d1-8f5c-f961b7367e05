@@ -1,0 +1,9 @@
+{
+  "uuid": "4185c6da-6768-44d1-8f5c-f961b7367e05",
+  "name": "Conversation: New Chat",
+  "description": "Root task for conversation b26d6761-943d-468c-8d4c-a6fabc4d1cfa",
+  "state": "NOT_STARTED",
+  "subTasks": [],
+  "lastUpdated": 1749874920775,
+  "lastUpdatedBy": "USER"
+}

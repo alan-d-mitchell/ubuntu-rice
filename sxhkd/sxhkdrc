@@ -116,9 +116,18 @@ super + F7
 	pulsemixer --change-volume -5
 
 # pulsemixer volume MUTE (0)
-super + F5
+super + F6
 	pulsemixer --toggle-mute
 
+# --------- BRIGHTNESS CONTROLS ------------------
+
+# decrease brightness by 10%
+super + F2
+    sudo brightnessctl set 10%-
+
+# increase brightness by 10%
+super + F3
+    sudo brightnessctl set +10%
 
 # --------- DUNST (NOTIFICATION MANAGER) ---------
 

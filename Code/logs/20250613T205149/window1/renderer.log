@@ -1,0 +1,11 @@
+2025-06-13 20:51:50.560 [info] Started local extension host with pid 5385.
+2025-06-13 20:51:50.745 [info] ComputeTargetPlatform: linux-x64
+2025-06-13 20:51:52.491 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-13 20:51:53.647 [info] [perf] Render performance baseline is 25ms
+2025-06-13 23:22:00.660 [error] [Extension Host] Failed to get remote url: Error: Failed to get remote url, no remote found
+	at lU.handleGetRemoteUrlRequest (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1928:492)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1596:3962
+	at async e.runTimed (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:2210:84893)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1596:3920
+2025-06-13 23:22:02.474 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-13 23:22:36.749 [info] Started local extension host with pid 43333.

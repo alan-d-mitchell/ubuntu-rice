@@ -1,0 +1,9 @@
+2025-06-13 20:51:49.437 [info] update#setState idle
+2025-06-13 20:52:19.227 [info] update#setState checking for updates
+2025-06-13 20:52:19.230 [info] update#setState idle
+2025-06-13 21:52:19.257 [info] update#setState checking for updates
+2025-06-13 21:52:19.259 [info] update#setState idle
+2025-06-13 22:52:19.272 [info] update#setState checking for updates
+2025-06-13 22:52:19.276 [info] update#setState idle
+2025-06-13 23:22:36.435 [info] Extension host with pid 5385 exited with code: 0, signal: unknown.
+2025-06-13 23:22:53.901 [info] Extension host with pid 43333 exited with code: 0, signal: unknown.

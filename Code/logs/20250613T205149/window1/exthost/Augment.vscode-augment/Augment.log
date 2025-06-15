@@ -1,0 +1,253 @@
+2025-06-13 23:20:41.445 [info] 'AugmentConfigListener' settings parsed successfully
+2025-06-13 23:20:41.445 [info] 'AugmentConfigListener' Config changed from <unset> to {"apiToken":"","completionURL":"","modelName":"","conflictingCodingAssistantCheck":true,"codeInstruction":{},"chat":{"enableEditableHistory":false,"useRichTextHistory":true,"smartPasteUsePrecomputation":true,"experimentalFullFilePaste":false,"modelDisplayNameToId":{"Augment":null},"userGuidelines":""},"agent":{},"autofix":{"enabled":false},"oauth":{"clientID":"augment-vscode-extension","url":"https://auth.augmentcode.com"},"enableUpload":true,"shortcutsDisplayDelayMS":2000,"enableEmptyFileHint":true,"enableDataCollection":false,"enableDebugFeatures":false,"enableReviewerWorkflows":false,"completions":{"enableAutomaticCompletions":true,"disableCompletionsByLanguage":{},"enableQuickSuggestions":true,"timeoutMs":800,"maxWaitMs":1600,"addIntelliSenseSuggestions":true},"openFileManager":{},"nextEdit":{"backgroundEnabled":true,"useCursorDecorations":false,"allowDuringDebugging":false,"useMockResults":false,"noDiffModeUseCodeLens":false,"enableBackgroundSuggestions":true,"enableGlobalBackgroundSuggestions":false,"highlightSuggestionsInTheEditor":false,"showDiffInHover":false,"enableAutoApply":true},"recencySignalManager":{"collectTabSwitchEvents":false},"preferenceCollection":{"enable":false,"enableRetrievalDataCollection":false,"enableRandomizedMode":true},"vcs":{"watcherEnabled":false},"git":{"enableCommitIndexing":false,"maxCommitsToIndex":100},"smartPaste":{},"instructions":{},"integrations":{},"mcpServers":[],"advanced":{}}
+2025-06-13 23:20:41.445 [info] 'FeatureFlagManager' feature flags changed from <unset> to {"gitDiff":false,"gitDiffPollingFrequencyMSec":0,"additionalChatModels":"","smallSyncThreshold":15,"bigSyncThreshold":1000,"enableWorkspaceManagerUi":true,"enableInstructions":false,"enableSmartPaste":false,"enableSmartPasteMinVersion":"","enablePromptEnhancer":false,"enableViewTextDocument":false,"bypassLanguageFilter":false,"enableHindsight":false,"maxUploadSizeBytes":131072,"vscodeNextEditBottomPanelMinVersion":"","vscodeNextEditMinVersion":"","vscodeNextEditUx1MaxVersion":"","vscodeNextEditUx2MaxVersion":"","vscodeFlywheelMinVersion":"","vscodeExternalSourcesInChatMinVersion":"","vscodeShareMinVersion":"","maxTrackableFileCount":250000,"maxTrackableFileCountWithoutPermission":150000,"minUploadedPercentageWithoutPermission":90,"memoryClassificationOnFirstToken":false,"vscodeSourcesMinVersion":"","vscodeChatHintDecorationMinVersion":"","nextEditDebounceMs":400,"enableCompletionFileEditEvents":false,"vscodeEnableCpuProfile":false,"verifyFolderIsSourceRepo":false,"refuseToSyncHomeDirectories":false,"enableFileLimitsForSyncingPermission":false,"enableChatMermaidDiagrams":false,"enableSummaryTitles":false,"smartPastePrecomputeMode":"visible-hover","vscodeNewThreadsMenuMinVersion":"","vscodeEditableHistoryMinVersion":"","vscodeEnableChatMermaidDiagramsMinVersion":"","userGuidelinesLengthLimit":2000,"workspaceGuidelinesLengthLimit":2000,"enableGuidelines":false,"useCheckpointManagerContextMinVersion":"","validateCheckpointManagerContext":false,"vscodeDesignSystemRichTextEditorMinVersion":"","allowClientFeatureFlagOverrides":false,"vscodeChatWithToolsMinVersion":"","vscodeChatMultimodalMinVersion":"","vscodeAgentModeMinVersion":"","vscodeAgentModeMinStableVersion":"","vscodeBackgroundAgentsMinVersion":"","vscodeAgentEditTool":"backend_edit_tool","vscodeRichCheckpointInfoMinVersion":"","vscodeDirectApplyMinVersion":"","memoriesParams":{},"eloModelConfiguration":{"highPriorityModels":[],"regularBattleModels":[],"highPriorityThreshold":0.5},"vscodeVirtualizedMessageListMinVersion":"","vscodeChatStablePrefixTruncationMinVersion":"","agentEditToolMinViewSize":0,"agentEditToolSchemaType":"StrReplaceEditorToolDefinitionNested","agentEditToolEnableFuzzyMatching":false,"agentEditToolFuzzyMatchSuccessMessage":"Replacement successful. old_str and new_str were slightly modified to match the original file content.","agentEditToolFuzzyMatchMaxDiff":50,"agentEditToolFuzzyMatchMaxDiffRatio":0.15,"agentEditToolFuzzyMatchMinAllMatchStreakBetweenDiffs":5,"agentEditToolInstructionsReminder":false,"agentEditToolShowResultSnippet":true,"agentEditToolMaxLines":200,"agentSaveFileToolInstructionsReminder":false,"vscodePersonalitiesMinVersion":"","useMemorySnapshotManager":false,"vscodeGenerateCommitMessageMinVersion":"","enableRules":false,"memoriesTextEditorEnabled":false,"enableModelRegistry":false,"openFileManagerV2Enabled":false,"modelRegistry":{},"vscodeTaskListMinVersion":"","vscodeSupportToolUseStartMinVersion":"","enableAgentAutoMode":false,"vscodeRemoteAgentSSHMinVersion":"","clientAnnouncement":"","grepSearchToolEnable":false,"grepSearchToolTimelimitSec":10,"grepSearchToolOutputCharsLimit":5000,"grepSearchToolNumContextLines":5}
+2025-06-13 23:20:46.950 [info] 'OAuthFlow' Creating new session...
+2025-06-13 23:20:46.957 [info] 'OAuthFlow' Opening URL: https://auth.augmentcode.com/authorize?response_type=code&code_challenge=rQ65Ip2PcKzl4oKodivId__g_FVN1o0-s2rsVyELZIg&code_challenge_method=S256&client_id=augment-vscode-extension&redirect_uri=vscode%3A%2F%2Faugment.vscode-augment%2Fauth%2Fresult&state=064e586b-1562-4c1a-8c9e-6710fc96de25&scope=email&prompt=login
+2025-06-13 23:21:58.746 [info] 'activate()' ======== Reloading extension ========
+2025-06-13 23:21:58.750 [info] 'AugmentExtension' Retrieving model config
+2025-06-13 23:21:58.751 [info] 'OAuthFlow' Created session https://d3.api.augmentcode.com/
+2025-06-13 23:21:59.448 [info] 'AugmentExtension' Retrieved model config
+2025-06-13 23:21:59.448 [info] 'AugmentExtension' Returning model config
+2025-06-13 23:21:59.508 [info] 'FeatureFlagManager' feature flags changed:
+  - additionalChatModels: "" to "{}"
+  - enableInstructions: false to true
+  - enableSmartPasteMinVersion: "" to "0.267.0"
+  - enablePromptEnhancer: false to true
+  - enableViewTextDocument: false to true
+  - bypassLanguageFilter: false to true
+  - maxUploadSizeBytes: 131072 to 524288
+  - vscodeNextEditBottomPanelMinVersion: "" to "0.394.0"
+  - vscodeNextEditMinVersion: "" to "0.343.0"
+  - vscodeFlywheelMinVersion: "" to "0.282.0"
+  - vscodeExternalSourcesInChatMinVersion: "" to "0.243.2"
+  - memoryClassificationOnFirstToken: false to true
+  - vscodeChatHintDecorationMinVersion: "" to "0.274.0"
+  - enableCompletionFileEditEvents: false to true
+  - verifyFolderIsSourceRepo: false to true
+  - refuseToSyncHomeDirectories: false to true
+  - enableFileLimitsForSyncingPermission: false to true
+  - enableSummaryTitles: false to true
+  - smartPastePrecomputeMode: "visible-hover" to "visible"
+  - vscodeNewThreadsMenuMinVersion: "" to "0.305.0"
+  - vscodeEditableHistoryMinVersion: "" to "0.330.0"
+  - vscodeEnableChatMermaidDiagramsMinVersion: "" to "0.314.0"
+  - userGuidelinesLengthLimit: 2000 to 24576
+  - workspaceGuidelinesLengthLimit: 2000 to 49512
+  - enableGuidelines: false to true
+  - useCheckpointManagerContextMinVersion: "" to "0.323.0"
+  - vscodeDesignSystemRichTextEditorMinVersion: "" to "0.363.0"
+  - vscodeChatMultimodalMinVersion: "" to "0.384.0"
+  - vscodeAgentModeMinVersion: "" to "0.395.0"
+  - vscodeAgentModeMinStableVersion: "" to "0.399.1"
+  - vscodeBackgroundAgentsMinVersion: "" to "0.472.1"
+  - vscodeAgentEditTool: "backend_edit_tool" to "str_replace_editor_tool"
+  - eloModelConfiguration > highPriorityModels: [] to undefined
+  - eloModelConfiguration > regularBattleModels: [] to undefined
+  - eloModelConfiguration > highPriorityThreshold: 0.5 to undefined
+  - vscodeChatStablePrefixTruncationMinVersion: "" to "0.402.0"
+  - agentEditToolMinViewSize: 0 to 500
+  - agentEditToolSchemaType: "StrReplaceEditorToolDefinitionNested" to "StrReplaceEditorToolDefinitionFlat"
+  - agentEditToolEnableFuzzyMatching: false to true
+  - agentEditToolInstructionsReminder: false to true
+  - agentEditToolShowResultSnippet: true to false
+  - agentEditToolMaxLines: 200 to 150
+  - agentSaveFileToolInstructionsReminder: false to true
+  - useMemorySnapshotManager: false to true
+  - enableAgentAutoMode: false to true
+  - vscodeRemoteAgentSSHMinVersion: "" to "0.456.0"
+2025-06-13 23:21:59.508 [info] 'SyncingPermissionTracker' Initial syncing permission: undefined
+2025-06-13 23:21:59.508 [info] 'WorkspaceManager' OpenFileManagerProxy created. V2 enabled: [false]
+2025-06-13 23:21:59.508 [info] 'BlobsCheckpointManager' BlobsCheckpointManager created. checkpointThreshold: 1000
+2025-06-13 23:21:59.508 [info] 'SyncingPermissionTracker' Permission to sync folder /home/alan-mitchell/chess-engine unknown: no permission information recorded
+2025-06-13 23:21:59.508 [info] 'WorkspaceManager' Adding workspace folder chess-engine; folderRoot = /home/alan-mitchell/chess-engine; syncingPermission = unknown
+2025-06-13 23:21:59.636 [info] 'RemoteAgentsMessenger' RemoteAgentsMessenger initialized, setting up onDidChangeTextDocument listener
+2025-06-13 23:21:59.636 [info] 'RemoteAgentsMessenger' Registering RemoteAgentsMessenger with AsyncMsgHandler
+2025-06-13 23:21:59.636 [info] 'HotKeyHints' HotKeyHints initialized
+2025-06-13 23:21:59.664 [info] 'ToolsModel' Tools Mode: undefined (0 hosts)
+2025-06-13 23:22:00.324 [info] 'RemoteAgentsMessenger' Remote agent status handler called
+2025-06-13 23:22:00.324 [info] 'RemoteAgentsMessenger' Remote agent status: isRemoteAgentSshWindow=false, remoteAgentId=undefined
+2025-06-13 23:22:00.329 [info] 'ToolsModel' Saved chat mode: CHAT
+2025-06-13 23:22:00.329 [info] 'ToolsModel' Tools Mode: CHAT (0 hosts)
+2025-06-13 23:22:00.474 [info] 'ToolsWebviewMessageHandler' Received closeAllToolProcesses message
+2025-06-13 23:22:00.516 [info] 'ToolsWebviewMessageHandler' Received closeAllToolProcesses message
+2025-06-13 23:22:00.518 [info] 'ToolsWebviewMessageHandler' Received closeAllToolProcesses message
+2025-06-13 23:22:00.657 [error] 'GitReferenceMessenger' Failed to locally get remote url: Failed to get remote url, no remote found
+2025-06-13 23:22:00.665 [info] 'WorkspaceManager' Beginning full qualification of source folder /home/alan-mitchell/chess-engine
+2025-06-13 23:22:00.800 [info] 'TaskManager' Setting current root task UUID to 8b3441c9-3b64-4b3b-be6c-2498ff9f313e
+2025-06-13 23:22:00.803 [info] 'TaskManager' Setting current root task UUID to 8b3441c9-3b64-4b3b-be6c-2498ff9f313e
+2025-06-13 23:22:00.805 [info] 'TaskManager' Setting current root task UUID to ed3b54b6-45bd-4c65-b42d-6cd5c2aa9e93
+2025-06-13 23:22:00.807 [info] 'TaskManager' Setting current root task UUID to ed3b54b6-45bd-4c65-b42d-6cd5c2aa9e93
+2025-06-13 23:22:00.810 [info] 'TaskManager' Setting current root task UUID to 4185c6da-6768-44d1-8f5c-f961b7367e05
+2025-06-13 23:22:00.812 [info] 'TaskManager' Setting current root task UUID to 4185c6da-6768-44d1-8f5c-f961b7367e05
+2025-06-13 23:22:00.813 [info] 'TaskManager' Setting current root task UUID to cab24adb-dac4-411e-9a87-38f517d7b5ab
+2025-06-13 23:22:00.816 [info] 'TaskManager' Setting current root task UUID to cab24adb-dac4-411e-9a87-38f517d7b5ab
+2025-06-13 23:22:00.865 [error] 'AugmentExtension' API request 2a6b1205-24e9-40e1-a184-26a9706a9a9a to https://d3.api.augmentcode.com/agents/list-remote-tools response 402: Payment Required
+2025-06-13 23:22:00.957 [error] 'AugmentExtension' API request 4837218f-fc89-4986-9fd0-e2f6ebcbd72d to https://d3.api.augmentcode.com/find-missing response 402: Payment Required
+2025-06-13 23:22:00.998 [error] 'AugmentExtension' API request 001f59c1-007f-4f26-91d1-2019f35cb59e to https://d3.api.augmentcode.com/report-error response 402: Payment Required
+2025-06-13 23:22:00.998 [error] 'AugmentExtension' Dropping error report "agents/list-remote-tools call failed with APIStatus unknown" due to error: HTTP error: 402 Payment Required
+2025-06-13 23:22:00.999 [error] 'VSCodeRemoteInfo' Failed to list remote tools HTTP error: 402 Payment Required
+2025-06-13 23:22:01.001 [info] 'ToolsModel' Tools Mode: CHAT (0 hosts)
+2025-06-13 23:22:01.466 [error] 'AugmentExtension' API request 275b9125-cf02-485f-ad6c-4e891b712728 to https://d3.api.augmentcode.com/report-error failed: This operation was aborted
+2025-06-13 23:22:01.467 [error] 'AugmentExtension' Dropping error report "find-missing call failed with APIStatus unknown" due to error: This operation was aborted
+2025-06-13 23:22:05.788 [error] 'ShardManager' Failed to flush shards: ENOENT: no such file or directory, unlink '/home/alan-mitchell/.config/Code/User/workspaceStorage/3ed166125521cec4e6058ccf3b39b451/Augment.vscode-augment/augment-user-assets/agent-edits/shards/agent-edit-shard-storage-shard-9fa0d08b-7748-4c21-8ab3-907ec593fdae.json'
+2025-06-13 23:22:09.854 [error] 'AugmentExtension' API request 154e7cff-28f9-4ba8-8f00-6f4b94ecf379 to https://d3.api.augmentcode.com/client-metrics response 402: Payment Required
+2025-06-13 23:22:09.856 [error] 'AugmentExtension' API request 71b22328-43cb-472c-96b2-e4cb54fc5dd6 to https://d3.api.augmentcode.com/record-session-events response 402: Payment Required
+2025-06-13 23:22:09.859 [error] 'AugmentExtension' API request 1e8efa03-9675-454b-bbb0-926e27e94a01 to https://d3.api.augmentcode.com/record-session-events response 402: Payment Required
+2025-06-13 23:22:09.861 [error] 'AugmentExtension' API request 42101f4a-5193-4c1a-ab49-613ab3a1f68d to https://d3.api.augmentcode.com/record-session-events response 402: Payment Required
+2025-06-13 23:22:09.905 [error] 'AugmentExtension' API request 83c531cb-5651-402f-a0d3-6d8f8c867da4 to https://d3.api.augmentcode.com/report-feature-vector response 402: Payment Required
+2025-06-13 23:22:10.088 [error] 'AugmentExtension' API request b3a35325-e86f-4489-a305-92759f0dfc2b to https://d3.api.augmentcode.com/report-error response 402: Payment Required
+2025-06-13 23:22:10.088 [error] 'AugmentExtension' Dropping error report "record-session-events call failed with APIStatus unknown" due to error: HTTP error: 402 Payment Required
+2025-06-13 23:22:10.088 [error] 'ExtensionSessionEventReporter' Error uploading metrics: Error: HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.logExtensionSessionEvent (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:35799)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:10.089 [error] 'ExtensionSessionEventReporter' Critical error in background metrics upload (will continue): HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.logExtensionSessionEvent (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:35799)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:10.094 [error] 'AugmentExtension' API request 4896a45a-eb8b-474b-b4bb-029ee4e45ee8 to https://d3.api.augmentcode.com/report-error response 402: Payment Required
+2025-06-13 23:22:10.094 [error] 'AugmentExtension' Dropping error report "record-session-events call failed with APIStatus unknown" due to error: HTTP error: 402 Payment Required
+2025-06-13 23:22:10.095 [error] 'OnboardingSessionEventReporter' Error uploading metrics: Error: HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.logOnboardingSessionEvent (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:34327)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:10.095 [error] 'OnboardingSessionEventReporter' Critical error in background metrics upload (will continue): HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.logOnboardingSessionEvent (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:34327)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:10.095 [error] 'AugmentExtension' API request 32089d11-3f38-4880-befd-9640eef85f77 to https://d3.api.augmentcode.com/report-error response 402: Payment Required
+2025-06-13 23:22:10.095 [error] 'AugmentExtension' Dropping error report "client-metrics call failed with APIStatus unknown" due to error: HTTP error: 402 Payment Required
+2025-06-13 23:22:10.096 [error] 'ClientMetricsReporter' Error uploading metrics: Error: HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.clientMetrics (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:51080)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:10.096 [error] 'ClientMetricsReporter' Critical error in background metrics upload (will continue): HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.clientMetrics (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:51080)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:10.097 [error] 'AugmentExtension' API request 1c59e302-b1b6-4699-9a03-b21d478423b5 to https://d3.api.augmentcode.com/report-error response 402: Payment Required
+2025-06-13 23:22:10.097 [error] 'AugmentExtension' Dropping error report "report-feature-vector call failed with APIStatus unknown" due to error: HTTP error: 402 Payment Required
+2025-06-13 23:22:10.097 [error] 'FeatureVectorReporter' Error uploading metrics: Error: HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.logFeatureVector (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:33760)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:10.097 [error] 'FeatureVectorReporter' Critical error in background metrics upload (will continue): HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.logFeatureVector (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:33760)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:10.150 [error] 'AugmentExtension' API request 2a645e20-e9f0-4aa2-84eb-d896c815c211 to https://d3.api.augmentcode.com/report-error response 402: Payment Required
+2025-06-13 23:22:10.150 [error] 'AugmentExtension' Dropping error report "record-session-events call failed with APIStatus unknown" due to error: HTTP error: 402 Payment Required
+2025-06-13 23:22:10.151 [error] 'NextEditSessionEventReporter' Error uploading metrics: Error: HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.logNextEditSessionEvent (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:33964)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:10.151 [error] 'NextEditSessionEventReporter' Critical error in background metrics upload (will continue): HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.logNextEditSessionEvent (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:33964)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:19.948 [error] 'AugmentExtension' API request f74dfa07-fb3a-417a-8667-8d3c0b6cd893 to https://d3.api.augmentcode.com/client-metrics response 402: Payment Required
+2025-06-13 23:22:20.069 [error] 'AugmentExtension' API request 0093e3df-f99f-4f51-94d6-6067d8180037 to https://d3.api.augmentcode.com/report-error response 402: Payment Required
+2025-06-13 23:22:20.069 [error] 'AugmentExtension' Dropping error report "client-metrics call failed with APIStatus unknown" due to error: HTTP error: 402 Payment Required
+2025-06-13 23:22:20.069 [error] 'ClientMetricsReporter' Error uploading metrics: Error: HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.clientMetrics (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:51080)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:20.069 [error] 'ClientMetricsReporter' Critical error in background metrics upload (will continue): HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.clientMetrics (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:51080)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:29.725 [error] 'AugmentExtension' API request 61408caa-ed04-41f2-a432-9f32005ddcb5 to https://d3.api.augmentcode.com/record-session-events response 402: Payment Required
+2025-06-13 23:22:29.863 [error] 'AugmentExtension' API request 5235853b-fdae-4918-966d-be33be35d8cc to https://d3.api.augmentcode.com/report-error response 402: Payment Required
+2025-06-13 23:22:29.863 [error] 'AugmentExtension' Dropping error report "record-session-events call failed with APIStatus unknown" due to error: HTTP error: 402 Payment Required
+2025-06-13 23:22:29.863 [error] 'OnboardingSessionEventReporter' Error uploading metrics: Error: HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.logOnboardingSessionEvent (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:34327)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583
+2025-06-13 23:22:29.863 [error] 'OnboardingSessionEventReporter' Critical error in background metrics upload (will continue): HTTP error: 402 Payment Required Error: HTTP error: 402 Payment Required
+	at e.fromResponse (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:10200)
+	at kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:13525)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kQ.callApi (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:56371)
+	at async kQ.logOnboardingSessionEvent (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:1581:34327)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14361
+	at async Is (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:12573)
+	at async e._doUpload (/home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:14260)
+	at async /home/alan-mitchell/.vscode/extensions/augment.vscode-augment-0.477.2/out/extension.js:665:13583

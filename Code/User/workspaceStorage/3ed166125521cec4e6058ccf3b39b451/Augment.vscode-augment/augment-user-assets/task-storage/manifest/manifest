@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "lastUpdated": 1749874920782,
+  "tasks": {
+    "8b3441c9-3b64-4b3b-be6c-2498ff9f313e": {
+      "uuid": "8b3441c9-3b64-4b3b-be6c-2498ff9f313e",
+      "name": "Conversation: New Chat",
+      "lastUpdated": 1749874920773,
+      "state": "NOT_STARTED"
+    },
+    "ed3b54b6-45bd-4c65-b42d-6cd5c2aa9e93": {
+      "uuid": "ed3b54b6-45bd-4c65-b42d-6cd5c2aa9e93",
+      "name": "Conversation: New Chat",
+      "lastUpdated": 1749874920775,
+      "state": "NOT_STARTED"
+    },
+    "4185c6da-6768-44d1-8f5c-f961b7367e05": {
+      "uuid": "4185c6da-6768-44d1-8f5c-f961b7367e05",
+      "name": "Conversation: New Chat",
+      "lastUpdated": 1749874920775,
+      "state": "NOT_STARTED"
+    },
+    "cab24adb-dac4-411e-9a87-38f517d7b5ab": {
+      "uuid": "cab24adb-dac4-411e-9a87-38f517d7b5ab",
+      "name": "Conversation: New Chat",
+      "lastUpdated": 1749874920776,
+      "state": "NOT_STARTED"
+    }
+  }
+}
